@@ -1,4 +1,4 @@
 git add .
-git commit -m "post"
+git commit -m "theme"
 git push
 pause
