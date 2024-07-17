@@ -1,0 +1,23 @@
+<!--鼠标点击爆炸五颜六色特效-->
+<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"> 
+</canvas>
+<script type="text/javascript" src="https://files.cnblogs.com/files/songhaixing/anime.min.js"></script>
+<script type="text/javascript" src="https://files.cnblogs.com/files/songhaixing/fireworks.js"></script>
+<!--end-->
+<link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+<div id="aplayer01"></div>
+<script type="text/javascript">
+    const ap = new APlayer({
+　　　　  //定义容器
+        container: document.getElementById('aplayer01'),
+　　　　 //关于音频的相关参数：
+        audio: [{
+            name: 'Famishin - とおりゃんせ～甘美風来 (通行歌～甘美风来) (Inst_)',//音频名称
+            artist: 'Famishin',//艺术家
+            url: 'https://resources.blog.kihh.xyz/file/Famishin%20-%20%E3%81%A8%E3%81%8A%E3%82%8A%E3%82%83%E3%82%93%E3%81%9B%EF%BD%9E%E7%94%98%E7%BE%8E%E9%A2%A8%E6%9D%A5%20(%E9%80%9A%E8%A1%8C%E6%AD%8C%EF%BD%9E%E7%94%98%E7%BE%8E%E9%A3%8E%E6%9D%A5)%20(Inst_).flac',//文件地址
+            cover: 'https://y.qq.com/music/photo_new/T002R300x300M000004StPJJ03g0cR_1.jpg?max_age=2592000'//封面地址
+        }]
+    });
+</script>
